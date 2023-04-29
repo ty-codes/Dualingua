@@ -205,7 +205,7 @@ input[type="range"]::-ms-track {
 #notification {
     border: 2px solid var(--primaryColor);
     border-radius: 15px;
-    padding: 20px;
+    padding: 5px 20px;
     display: flex;
     background: var(--white);
     justify-content: space-between;
@@ -510,11 +510,7 @@ footer .filled {
     h6 {
         font-size: 14px;
     }
-
-    #notification {
-        padding: 20px 10px;
-    }
-
+    
     .subtitle {
         font-size: 12px;
     }
