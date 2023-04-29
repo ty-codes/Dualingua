@@ -75,4 +75,10 @@ const Badge = styled.p`
     border-radius: 40px;
     text-align: center;
     margin: 1em 0;
+
+    @media (max-width: 375px) {
+        font-size: 13px;
+        width: 80%;
+        padding: 8px 0px;
+    }
 `
