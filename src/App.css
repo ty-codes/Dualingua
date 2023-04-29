@@ -210,7 +210,6 @@ input[type="range"]::-ms-track {
     background: var(--white);
     justify-content: space-between;
     gap: 20px;
-    min-height: 170px;
 }
 
 #notification .header {
