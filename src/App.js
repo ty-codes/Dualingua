@@ -14,10 +14,11 @@ function App() {
           <Routes>
             <Route exact path='/' element={<Home />} />
             <Route path='metrics' element={<Metrics />} />
+            <Route exact path='*' element={<Home />} />
           </Routes>
         </Suspense>
-            <Footer />
-  
+        <Footer />
+
       </Router>
     </>
 
