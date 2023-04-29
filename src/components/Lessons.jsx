@@ -1,5 +1,5 @@
-import {CustomButton} from ".";
-import {britain, vocab} from "../assets";
+import { CustomButton } from ".";
+import { britain, vocab } from "../assets";
 import { Dot } from "../assets/svg";
 
 export default function Lessons() {
@@ -28,14 +28,14 @@ export default function Lessons() {
         {
             image: vocab,
             score: "60",
-            course: "Speaking 101",
+            course: "New words",
             days: "60",
             interval: "daily"
         },
         {
             image: britain,
             score: "60",
-            course: "Speaking 101",
+            course: "Speaking 103",
             days: "30",
             interval: "daily"
         },
@@ -59,9 +59,9 @@ export default function Lessons() {
     )
 }
 
-const Lesson = (lesson, key) => {
+const Lesson = ({ lesson, key }) => {
 
-    const { image, course, score, days, interval } = lesson?.lesson;
+    const { image, course, score, days, interval } = lesson;
 
     return (
         <div key={`lingua-lesson-${key}`} className="lesson">

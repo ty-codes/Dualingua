@@ -18,14 +18,14 @@ export default function Calendar() {
                <div className="days">
                     {
                          daysOfTheWeek?.map((day, key) => {
-                              
-                              
+
+
                               return (
                                    <span key={`lingua-days-${key}`}>
                                         <p
                                              className={`date ${completedDays.includes(day) ? "completed"
-                                             : upcomingDays.includes(day) ? "upcoming"
-                                             : ""}`}
+                                                  : upcomingDays.includes(day) ? "upcoming"
+                                                       : ""}`}
                                         >
                                              {completedDays?.includes(day) ? <CheckOutlined className="tick" />
                                                   : key + 2}</p>

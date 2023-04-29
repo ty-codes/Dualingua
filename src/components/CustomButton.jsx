@@ -3,7 +3,7 @@ import { LeftOutlined, RightOutlined } from "@ant-design/icons/lib/icons";
 import styled from "styled-components";
 
 
-export default function CustomButton ({direction, path}) {
+export default function CustomButton({ direction, path }) {
     return (
         <CustomLink to={path ? `/${path}` : "/"} className="custom-button">
             {direction === "left" ? <LeftOutlined /> : <RightOutlined />}

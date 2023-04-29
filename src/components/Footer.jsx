@@ -9,8 +9,8 @@ export default function Footer() {
     return (
         <footer>
             <Link to="/">
-                {location.pathname === "/" ? <HomeFilled className="filled" /> 
-                : <HomeOutlined className="outlined"/>}
+                {location.pathname === "/" ? <HomeFilled className="filled" />
+                    : <HomeOutlined className="outlined" />}
             </Link>
             <Link to="metrics"
                 style={{

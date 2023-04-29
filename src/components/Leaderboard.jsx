@@ -1,6 +1,6 @@
-import {  ArrowUpOutlined } from "@ant-design/icons";
-import {CustomButton} from ".";
-import {flame, female, male} from "../assets";
+import { ArrowUpOutlined } from "@ant-design/icons";
+import { CustomButton } from ".";
+import { flame, female, male } from "../assets";
 
 export default function Leaderboard() {
     const placeholder = [
@@ -33,8 +33,8 @@ export default function Leaderboard() {
     )
 }
 
-const Leader = (leader, key) => {
-    const { image, name, location, points } = leader?.leader;
+const Leader = ({ leader, key }) => {
+    const { image, name, location, points } = leader;
 
     return (
         <div className="leader" key={`lingua-leaderboard-${key}`}>

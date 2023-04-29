@@ -43,8 +43,8 @@ export default function Skills() {
 };
 
 
-const Skill = (skill, key) => {
-    const { image, skill: title, grade } = skill?.skill;
+const Skill = ({ skill, key }) => {
+    const { image, skill: title, grade } = skill;
 
     return (
         <div className="skill" key={`lingua-skill-${key}`}>
