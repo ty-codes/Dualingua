@@ -12,6 +12,10 @@ const Wrapper = styled.div`
     padding-inline: 30px;
     padding-top: 30px;
     background-color: var(--background);
-    height: calc(100vh - 85px);
+    height: calc(100vh - 70px);
     overflow-y: auto;
+
+    @media (max-width: 425px) {
+        padding-inline: 20px;
+    }
 `;

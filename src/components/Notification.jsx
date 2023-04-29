@@ -1,17 +1,17 @@
 import { flame } from "../assets";
 
+
 export default function Notification() {
     return (
         <section id="notification">
             <div>
                 <p className="header">Today's goal</p>
                 <span>
-                    <input type="range" class="c-rng" min="0" max="100" step="1" value="82" data-range="circular" data-modifier="c-rng--tomato" />
-
+                    <input type="range" class="c-rng" min="0" max="100" step="1" value="70" data-range="circular" data-modifier="c-rng--tomato" disabled/>
                     {/* <h2>70%</h2> */}
                 </span>
             </div>
-            <div>
+            <div className="text">
                 <h2>Excellent!</h2>
                 <p>You're almost there </p>
                 <p>Finish the goal to achieve</p>
