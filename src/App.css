@@ -13,8 +13,8 @@
     /* #ff9563  #f4986c*/
     --scSecondaryColor: #ffd3bf;
     /* #ffd3bf rgba(255,149,99,255),  #fed3bd */
-    --background: #f4f1f8;
-    /*  #fbf0ff  #f6f8fe, #fcf4ff #e6d7ff #ece4f8*/
+    --background: #f6f5f8;
+    /* #f6f5f8   #f4f1f8  #f6f8fe, #fcf4ff #e6d7ff #ece4f8*/
     --black: #464646;
 }
 
@@ -207,21 +207,27 @@ input[type="range"] {
 #notification {
     border: 2px solid var(--primaryColor);
     border-radius: 15px;
-    padding: 20px 30px;
+    padding: 20px;
     display: flex;
     background: var(--white);
     justify-content: space-between;
+    gap: 20px;
+    min-height: 170px;
 }
 
 #notification .header {
     color: var(--primaryColor);
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 600;
 }
 
 #notification span {
     display: flex;
     align-items: center;
+}
+
+#notification .text {
+    padding: 20px 0;
 }
 
 
@@ -426,12 +432,11 @@ footer {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding-bottom: 15px;
 }
 
 footer svg {
-    width: 25px;
-    height: 25px;
+    width: 23px;
+    height: 23px;
 }
 
 footer .outlined {
@@ -444,7 +449,8 @@ footer .filled {
 
 @media (max-width: 430px) {
     .skill {
-        width: 100%;
+        width: 90%;
+        margin: auto auto 1em auto
     }
 
     h2 {
@@ -464,7 +470,7 @@ footer .filled {
     }
 
     #notification {
-        padding: 20px 13px;
+        padding: 20px 10px;
     }
 
     .subtitle {
