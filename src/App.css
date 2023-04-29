@@ -10,11 +10,9 @@
     --secondaryColor: #c8d0f0;
     --subtitle: #ccc;
     --scPrimaryColor: #f4986c;
-    /* #ff9563  #f4986c*/
     --scSecondaryColor: #ffd3bf;
-    /* #ffd3bf rgba(255,149,99,255),  #fed3bd */
-    --background: #f9f9f9;
-    /* #f6f5f8   #f4f1f8  #f6f8fe, #fcf4ff #e6d7ff #ece4f8*/
+    --background: #f7f5f8;
+    /* #f6f5f8   #f4f1f8  #f6f8fe*/
     --black: #464646;
 }
 
@@ -524,8 +522,8 @@ footer .filled {
 
 @media (max-width: 375px) {
     #calendar .date {
-        width: 25px;
-        height: 25px;
+        width: 33px;
+        height: 33px;
     }
 
     h2 {
