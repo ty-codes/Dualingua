@@ -40,7 +40,7 @@ h6 {
 }
 
 h2 {
-    font-size: 27px;
+    font-size: 21px;
     color: var(--black);
     text-shadow: 0 0 var(--black);
 }
@@ -50,7 +50,7 @@ h3 {
 }
 
 h4 {
-    font-size: 25px;
+    font-size: 19px;
     font-weight: 600;
 }
 
@@ -61,12 +61,12 @@ h5 {
 
 h6 {
     font-weight: 600;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 p {
-    font-size: 18px;
-    margin: 4px 0;
+    font-size: 16px;
+    margin: 3px 0;
     font-weight: lighter;
 }
 
@@ -85,7 +85,7 @@ header {
 }
 
 .subtitle {
-    font-size: 15px;
+    font-size: 14px;
     color: var(--subtitle);
     font-weight: 400;
 }
@@ -226,7 +226,7 @@ input[type="range"]::-ms-track {
 
 #notification span h2 {
     position: absolute;
-    right: 33%;
+    right: 34%;
 }
 
 #notification .text {
@@ -274,6 +274,7 @@ input[type="range"]::-ms-track {
 .lessons {
     display: flex;
     overflow-x: auto;
+    width: 100vw;
 }
 
 .lesson {
@@ -281,8 +282,7 @@ input[type="range"]::-ms-track {
     display: flex;
     flex-direction: column;
     padding: 0 0 20px 0;
-    margin-right: 20px;
-
+    margin-right: 25px;
 }
 
 .lesson .image-wrapper {
@@ -383,12 +383,11 @@ input[type="range"]::-ms-track {
 
 .skill {
     width: 48%;
-    border-radius: 40px;
+    border-radius: 25px;
     background-color: var(--white);
     padding: 15px 0;
     align-items: center;
     margin-bottom: 1em;
-    min-height: 300px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -488,25 +487,12 @@ footer .filled {
 }
 
 @media (max-width: 450px) {
-    .skill {
-        width: 90%;
-        margin: auto auto 1em auto
-    }
-
-    h2 {
-        font-size: 23px;
-    }
-
-    h4 {
-        font-size: 19px;
-    }
 
     h5 {
         font-size: 15px;
     }
 
-    p,
-    h6 {
+    p {
         font-size: 14px;
     }
 
@@ -532,5 +518,14 @@ footer .filled {
     .slider {
         width: 6rem;
         height: 6rem;
+    }
+
+    .skill svg {
+        width: 20px;
+        height: 20px;
+    }
+    .skill .image-wrapper {
+        height: 60px;
+        width: 60px;
     }
 }
