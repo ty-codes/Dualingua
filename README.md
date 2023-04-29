@@ -1,5 +1,5 @@
-# Duolingua
-This repository contains the files for Duolingua (Frontend).
+# Dualingua
+This repository contains the files for Dualingua (Frontend).
 
 # Hosted on
-- [Netlify](https://duolingua.netlify.app)
+- [Netlify](https://dualingua.netlify.app)
