@@ -14,8 +14,8 @@ export default function CustomButton({ direction, path }) {
 const CustomLink = styled(Link)`
     border-radius: 6px;
     border: 2px solid var(--primaryColor);
-    height: 25px;
-    width: 25px;
+    height: 21px;
+    width: 21px;
     display: flex;
     justify-content: center;
     align-items: center;

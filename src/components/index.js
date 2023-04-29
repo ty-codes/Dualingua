@@ -11,7 +11,7 @@ import PageWrapper from "./PageWrapper";
 
 export {
     Header,
-    Loader, 
+    Loader,
     Footer,
     Notification,
     Lessons,
