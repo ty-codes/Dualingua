@@ -17,6 +17,7 @@ const Wrapper = styled.div`
     overflow-x: hidden;
 
     @media (max-width: 425px) {
-        padding-inline: 10px;
+        padding-inline: 20px;
     }
+    
 `;
